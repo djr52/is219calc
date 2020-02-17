@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1581972229128" clover="3.2.0">
+  <project timestamp="1581972229128" name="All files">
+    <metrics statements="37" coveredstatements="33" conditionals="1" coveredconditionals="0" methods="20" coveredmethods="18" elements="58" coveredelements="51" complexity="0" loc="37" ncloc="37" packages="1" files="8" classes="8"/>
+    <file name="Calculator.js" path="C:\Users\djram\WebstormProjects\is219calc\Calculator.js">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+    </file>
+    <file name="MathOperations.js" path="C:\Users\djram\WebstormProjects\is219calc\MathOperations.js">
+      <metrics statements="17" coveredstatements="13" conditionals="1" coveredconditionals="0" methods="8" coveredmethods="6"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+    </file>
+    <file name="divide.js" path="C:\Users\djram\WebstormProjects\is219calc\divide.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
+    <file name="multiply.js" path="C:\Users\djram\WebstormProjects\is219calc\multiply.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
+    <file name="sqroot.js" path="C:\Users\djram\WebstormProjects\is219calc\sqroot.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
+    <file name="square.js" path="C:\Users\djram\WebstormProjects\is219calc\square.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+    </file>
+    <file name="subtract.js" path="C:\Users\djram\WebstormProjects\is219calc\subtract.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
+    <file name="sum.js" path="C:\Users\djram\WebstormProjects\is219calc\sum.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
