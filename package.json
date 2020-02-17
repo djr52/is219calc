@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "coverage": "jest --coverage",
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
     "test": "jest"
   },
@@ -13,5 +14,6 @@
   "devDependencies": {
     "coveralls": "^3.0.9",
     "jest": "^25.1.0"
-  }
+  },
+  "dependencies": {}
 }

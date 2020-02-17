@@ -1,0 +1,2 @@
+SERVICE_NAME: travis-ci
+COVERALLS_GIT_BRANCH: master

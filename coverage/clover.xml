@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1581965739782" clover="3.2.0">
-  <project timestamp="1581965739782" name="All files">
-    <metrics statements="33" coveredstatements="33" conditionals="1" coveredconditionals="0" methods="19" coveredmethods="18" elements="53" coveredelements="51" complexity="0" loc="33" ncloc="33" packages="1" files="8" classes="8"/>
+<coverage generated="1581970989998" clover="3.2.0">
+  <project timestamp="1581970989998" name="All files">
+    <metrics statements="37" coveredstatements="33" conditionals="1" coveredconditionals="0" methods="20" coveredmethods="18" elements="58" coveredelements="51" complexity="0" loc="37" ncloc="37" packages="1" files="8" classes="8"/>
     <file name="Calculator.js" path="C:\Users\djram\WebstormProjects\is219calc\Calculator.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <line num="1" count="1" type="stmt"/>
@@ -14,7 +14,7 @@
       <line num="29" count="1" type="stmt"/>
     </file>
     <file name="MathOperations.js" path="C:\Users\djram\WebstormProjects\is219calc\MathOperations.js">
-      <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="0" methods="7" coveredmethods="6"/>
+      <metrics statements="17" coveredstatements="13" conditionals="1" coveredconditionals="0" methods="8" coveredmethods="6"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
@@ -27,7 +27,11 @@
       <line num="22" count="1" type="stmt"/>
       <line num="25" count="1" type="stmt"/>
       <line num="28" count="1" type="stmt"/>
-      <line num="36" count="1" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
     </file>
     <file name="divide.js" path="C:\Users\djram\WebstormProjects\is219calc\divide.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
