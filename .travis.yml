@@ -10,6 +10,7 @@ cache:
 before_install:
   - npm update
   - chmod 0555 ./node_modules/.bin/jest
+  - chmod +x ./tests/coverage/lcov.info
 install:
   - npm install
 script:
