@@ -9,7 +9,7 @@ cache:
     - node_modules
 before_install:
   - npm update
-  - chmod +x ./tests/
+  - chmod +x ./node_modules/coveralls/bin/coveralls.js
 install:
   - npm install
 script:
