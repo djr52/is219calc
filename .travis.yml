@@ -9,6 +9,7 @@ cache:
     - node_modules
 before_install:
   - npm update
+  - chmod +x ./tests/
 install:
   - npm install
 script:
