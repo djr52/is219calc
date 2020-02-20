@@ -9,7 +9,6 @@ cache:
     - node_modules
 before_install:
   - npm update
-  - chmod +x ./coverage/lcov.info
 install:
   - npm install
 script:
