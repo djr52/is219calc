@@ -28,15 +28,6 @@ class MathOperations {
         return sqroot(a);
     }
 
-    static sumList(arr=[]){
-        let Result = 0;
-        arr.forEach(function (item) {
-            Result = sum(Result, item);
-        });
-        return Result;
-
-
-    }
 }
 
 module.exports = MathOperations;
