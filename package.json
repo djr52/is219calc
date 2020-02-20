@@ -1,13 +1,14 @@
 {
   "name": "is219calc",
   "version": "1.0.0",
-  "description": "",
+  "description": "First node app",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "start": "node index.js",
     "coverage": "jest --coverage",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "test": "jest"
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+
   },
   "keywords": [],
   "author": "",
