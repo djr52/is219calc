@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.com/djr52/is219calc.svg?branch=master)](https://travis-ci.com/djr52/is219calc)
+[![Coverage Status](https://coveralls.io/repos/github/djr52/is219calc/badge.svg?branch=master)](https://coveralls.io/github/djr52/is219calc?branch=master)
