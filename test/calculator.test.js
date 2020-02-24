@@ -41,3 +41,10 @@ test("Calculator 49 root to equal 7", () => {
         expect(Calc.SqRoot(a)).toBe(7);
     }
 );
+test('Calculator sum of array 5,4,3,2,1 is 15', () => {
+    let Calc = new Calculator();
+    let sumArray = [5,4,3,2,1]
+    expect(Calc.Add(sumArray)).toBe(15);
+    expect(Calc.Result).toBe(15);
+
+});

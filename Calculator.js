@@ -2,8 +2,13 @@ MathOperations = require("./MathOperations");
 
 class Calculator{
 
-    Add(a, b){
-        return this.Result = MathOperations.sum(a, b);
+    Add(a = null, b = null){
+        if (Array.isArray(a)) {
+            return this.Result = MathOperations.sum(a);
+
+        } else {
+            return this.Result = MathOperations.sum(a, b);
+        }
 
     }
     Subtract(a, b){

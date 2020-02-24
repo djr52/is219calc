@@ -9,8 +9,12 @@ const sqroot = require('./sqroot');
 
 class MathOperations {
 
-    static sum(a,b) {
-        return sum(a,b);
+    static sum(a = null, b = null) {
+        if(Array.isArray(a)) {
+            return sum(a);
+        } else {
+            return sum(a,b);
+        }
     }
     static difference(a,b){
         return subtract(a,b);
