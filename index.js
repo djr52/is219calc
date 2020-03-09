@@ -15,11 +15,17 @@ fs.createReadStream(csvFile)
     })
         .on('readable', function(){
             let record;
+            const city = new City(record);
 
+            city.factoryCity(record);
+            console.log(city);
+            /*
             while (record = this.read()) {
                 const city = new City(record);
-                output.push(record)
+                output.push(record);
             }
+
+             */
         })
         // When we are done, test that the parsed output matched what expected
         .on('end', function(){

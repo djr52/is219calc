@@ -13,6 +13,17 @@ class City {
         this.population = population;
         this.id = id;
     }
+    factoryCity(record){
+        let city = [];
+        while (record = this.read()) {
+
+            city.push(record);
+        }
+        return city;
+    }
+
+
 }
+
 
 module.exports = City;
