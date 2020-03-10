@@ -13,13 +13,8 @@ class City {
         this.population = population;
         this.id = id;
     }
-    factoryCity(record){
-        let city = [];
-        while (record = this.read()) {
-
-            city.push(record);
-        }
-        return city;
+    static factoryCity(city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id){
+        return new City(city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id);
     }
 
 
